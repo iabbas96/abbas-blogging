@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />} />   
         
         {/* ADDED: Route for the /home URL, e.g., http://localhost:5173/home */}
-        <Route path="/home" element={<Home />} />      
+        <Route path="/" element={<Home />} />      
         
         <Route path="/about" element={<About />} />      
         <Route path="/sign-in" element={<SignIn />} />      
