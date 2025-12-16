@@ -11,11 +11,17 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* Route for the root URL, e.g., http://localhost:5173/ */}
         <Route path="/" element={<Home />} />      
+        
+        {/* ADDED: Route for the /home URL, e.g., http://localhost:5173/home */}
+        <Route path="/home" element={<Home />} />      
+        
         <Route path="/about" element={<About />} />      
         <Route path="/sign-in" element={<SignIn />} />      
         <Route path="/sign-up" element={<SignUp />} />      
         <Route path="/dashboard" element={<Dashboard />} />      
+        <Route path="/project" element={<Projects />} />      
      
       </Routes>
     </BrowserRouter>
