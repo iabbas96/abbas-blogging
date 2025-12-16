@@ -6,13 +6,15 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
+import Header from './components/Header'
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Header />
       <Routes>
         {/* Route for the root URL, e.g., http://localhost:5173/ */}
-        <Route path="/" element={<Home />} />      
+        <Route path="/" element={<Home />} />   
         
         {/* ADDED: Route for the /home URL, e.g., http://localhost:5173/home */}
         <Route path="/home" element={<Home />} />      
