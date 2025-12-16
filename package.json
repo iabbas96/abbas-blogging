@@ -1,0 +1,28 @@
+{
+  "name": "mern_abbas_2025",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/index.js",
+    "start":"node backend/index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iabbas96/abbas-blogging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iabbas96/abbas-blogging/issues"
+  },
+  "homepage": "https://github.com/iabbas96/abbas-blogging#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
